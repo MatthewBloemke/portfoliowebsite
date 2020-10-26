@@ -1,33 +1,26 @@
+/*
+Matthew Bloemke
+Revision Date: 10/26/2020
+*/
 * {
+    /*Resets margins and padding. I was having trouble having the heading background color extend to the top and
+    sides of the screen and this was the fix for now.*/
     margin: 0;
     padding: 0;
 }
 body {
+    /*Sets the formating for the body, adds a background color*/
     min-width: 350px;
     background-color: gray;
     margin: 0;
     padding: 0;
 }   
 header{
+    /*Adds background color to the header*/
     background-color: orangered ;
-    padding-top: 0;
-}
-p {
-    margin: auto;
-    padding-top: 1px;
-    padding-bottom: 10px;
-    line-height: 20px;
-}
-h1, p, h2 {
-    text-align: center;   
-}
-p, h2 {
-    font-family: monospace;
-}
-main p {
-    font-size: 20px;
 }
 img {
+    /*Centers the picture on the page*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -35,8 +28,45 @@ img {
     margin-bottom: 50px;
     width: 20%;
 }
-
+h1, p, h2, h3 {
+    /*centers all of the text*/
+    text-align: center;   
+}
+p, h2, h3 {
+    /*sets font family for the file*/
+    font-family: monospace;
+}
+h1 {
+    /*font fomatting for the title*/
+    font-family: "URW Chancery L", cursive;
+    font-size: 60px;
+}
+h2 {
+    /*changes font size for h2*/
+    font-size: 40px;
+}
+h3 {
+    /*changes font size for h3*/
+    font-size: 35px;
+}
+p {
+    /*formats all of the paragraphs*/
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+li {
+    /*formats font, and centers the list*/
+    font-family: monospace;
+    font-size: 20px;
+    width: 58%;
+    margin-left: auto;
+}
 hr {
+    /*formats the horizontal rules for the whole page*/
     height: 3px;
     border: none;
     background-color: orangered;
@@ -44,26 +74,12 @@ hr {
     margin-bottom: 10px;
     
 }
-h1 {
-    font-family: "URW Chancery L", cursive;
-    font-size: 60px;
-}
-h2 {
-    font-size: 40px;
-}
-header p {
-    font-size: 30px;
-}
-li {
-    font-family: monospace;
-    font-size: 20px;
-    width: 58%;
-    margin-left: auto;
-}
 #specialHr {
-    height: 5px;
+    /*formats a special horizontal rule that adds more color to the heading*/
+    height: 4px;
     background-color: gray;
 }
+/*link color formatting*/
 a:link {color: blue;}
 a:visited {color: orangered;}
 a:hover { color: lime;}

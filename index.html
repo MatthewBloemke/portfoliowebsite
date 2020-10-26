@@ -1,52 +1,73 @@
+<!--
+Author: Matthew Bloemke
+Title: Portfolio Website index.html
+Last Revision: 10/26/20
+-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!--sets language to english-->
     <head>
         <meta charset="utf-8">
-        <title>Matthew Bloemke | Software Developer</title>
+        <title>Matthew Bloemke | Software Developer</title> <!--sets the title of the page in a browser-->
         <meta name="viewport" content="width=device-width">
+        <!--links stylesheet and javascript
+        there is not a javascript file at the moment
+        -->
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
     </head>
     <body>
         <header>
-            <div class="mHead">
-                <h1>Matthew Bloemke</h1>
-                <hr id="specialHr">
-                <p>Software Developer</p>
-            </div>
+            <!--Header with name and ocupation-->
+            <h1>Matthew Bloemke</h1>
+            <hr id="specialHr">
+            <h2>Software Developer</h2>
         </header>
         <main>
             <div id="pic">
+                <!--imports picture of myself-->
                 <img src="mypic.jpg" width="100" alt="Picture of me">
             </div>
             <hr>
+            <!--Intro section, h3 used as titles, and a few lists-->
             <div>
-                <h2>Hi, I'm Matthew Bloemke!</h2>
-                <p>I am a student at <a href="https://www.thinkful.com/" target="_blank">thinkful</a>. I am currently living in Wisconsin</p>
+                <h3>Hi, I'm Matthew Bloemke!</h3>
+                <p>I am a student at <a href="https://www.thinkful.com/" target="_blank">Thinkful</a>. I am currently living in Wisconsin.</p>
                 <p>Some of my interests include:</p>
                 <ul>
                     <li>Hockey</li>
                     <li>Video Games</li>
                     <li>Computers, hardware or software</li>
                     <li>Exploring the great outdoors</li>
-                    <li>My dog <a href="#pic">Samson</a>, pictured above.</li>
+                    <li>My dog <a href="#pic">Samson</a>, pictured above.</li><!--Anchor link to the picture of my dog and I-->
                 </ul>
+                <p>Here is a list of my favorite hockey teams:</p>
+                <ol>
+                    <li>Minnesota Wild</li>
+                    <li>Boston Bruins</li>
+                    <li>Nashville Predators</li>
+                </ol>
+                <!--Anchor link to the contact me section-->
                 <p>This website will be constantly growing. Feel free to <a href="#contact">contact me!</a></p>
             </div>
             <hr>
             <div>
-                <h2>About Me</h2>
-                <p>I am 22 years old, and I love hockey, computers, and animals. <br> I grew up in Minnesota, and recently moved to Wisconsin. <br> I have completed
-                    a year of college,<br> and have decided to continue my education through <a href="https://www.thinkful.com/" target="_blank">thinkful</a>. <br> I enjoy 
-                    spending time with my Fiancée and dog. <br> I am always trying to learn new things and love working hard.
+                <!--About me section, link to thinkful included-->
+                <h3>About Me</h3>
+                <p>I am 22 years old, and I love hockey, computers, and animals. <br> I grew up in Minnesota and recently moved to Wisconsin. I built my first computer <br> and took
+                    my first programming classes in high school. <br> Since then, I have loved computers, and I knew that I wanted to make a career out of this passion. <br> I have completed
+                    a year of college,<br> and have decided to continue my education through <a href="https://www.thinkful.com/" target="_blank">Thinkful</a>.
+                    <br> I am always trying to learn new things. Because of that, I love working 
+                    with people. <br> Someone else will almost always know something that I do not know yet. 
                 </p>
             </div>
             <hr>
+            <!--contact me section, id for the anchor link-->
             <div id="contact">
-                <h2>Contact me</h2>
+                <h3>Contact me</h3>
                 <p>Shoot me a message!</p>
+                <!--contact links-->
                 <p><a href="https://github.com/MatthewBloemke" target="_blank">My Github Account</a></p>
-                <p><a href="https://www.linkedin.com/in/matt-bloemke-a49a85199/" target="_blank">My linkedin profile</a></p>
+                <p><a href="https://www.linkedin.com/in/matt-bloemke-a49a85199/" target="_blank">My Linkedin profile</a></p>
             </div>
         </main>
     </body>
